@@ -45,6 +45,19 @@ To use only planning mode:
 opencode --agent plan
 ```
 
+## Config file location
+
+Place `opencode.json` in the OpenCode config directory for your OS:
+
+| OS | Path |
+|---|---|
+| macOS | `~/.config/opencode/opencode.json` |
+| Linux | `~/.config/opencode/opencode.json` |
+| Windows | `%APPDATA%\opencode\opencode.json` |
+
+> `~` expands to `/Users/<your-user>` on macOS and `/home/<your-user>` on Linux.  
+> `%APPDATA%` expands to `C:\Users\<your-user>\AppData\Roaming` on Windows.
+
 ## File
 
 ```
